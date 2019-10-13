@@ -24,7 +24,7 @@
     'installable': True,
     'application': True,
     'auto_install': False,
-    'depends': ['hr', 'contacts', 'document'],
+    'depends': ['hr', 'contacts', 'attachment_indexation'],
     'data': [
         'data/base_ir_rule.xml',
         'groups/group.xml',
