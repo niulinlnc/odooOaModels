@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2019 SuXueFeng
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<odoo>
+    <data>
+        <record id="meeting_manage.oa_meeting_meeting_application_tree_view" model="ir.ui.view">
+            <field name="name">会议申请</field>
+            <field name="model">oa.meeting.meeting.application</field>
+            <field name="arch" type="xml">
+                <tree default_order="id desc">
+                    <field name="meeting_name"/>
+                    <field name="start_time"/>
+                    <field name="end_time"/>
+                    <field name="create_uid"/>
+                    <field name="department_id"/>
+                    <field name="host_id"/>
+                    <field name="meeting_address"/>
+                    <field name="meeting_recorder"/>
+                    <field name="meeting_type"/>
+                    <field name="meeting_remind"/>
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="meeting_manage.oa_meeting_meeting_application_form_view" model="ir.ui.view">
+            <field name="name">会议申请</field>
+            <field name="model">oa.meeting.meeting.application</field>
+            <field name="arch" type="xml">
+                <form string="会议申请">
+                    <header>
+                        <button name="send_meeting" type="object" string="发布会议"
+                                states="00" class="oe_highlight" groups="bulletin_manage.manager"
+                                confirm="请确认会议信息,是否需要发布?"/>
+                        <field name="state" widget="statusbar" modifiers="{'readonly': true}"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="meeting_name"
+                                       placeholder="会议主题,例如：XXX会议..."/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="start_time" attrs="{'readonly': [('state', '!=', '00')]}"/>
+                                <field name="end_time" attrs="{'readonly': [('state', '!=', '00')]}"/>
+                                <field name="user_info_id" attrs="{'readonly': [('state', '!=', '00')]}"/>
+                                <field name="department_id" attrs="{'readonly': [('state', '!=', '00')]}"/>
+                                <field name="host_id" attrs="{'readonly': [('state', '!=', '00')]}"/>
+                                <field name="meeting_address" attrs="{'readonly': [('state', '!=', '00')]}"/>
+                            </group>
+                            <group>
+                                <field name="meeting_recorder" attrs="{'readonly': [('state', '!=', '00')]}"/>
+                                <field name="meeting_type" attrs="{'readonly': [('state', '!=', '00')]}"/>
+                                <field name="meeting_remind" attrs="{'readonly': [('state', '!=', '00')]}"/>
+                                <field name="meeting_need" attrs="{'readonly': [('state', '!=', '00')]}"
+                                       widget="many2many_tags"/>
+                                <field name="meeting_enclosure" attrs="{'readonly': [('state', '!=', '00')]}"
+                                       widget="many2many_binary"/>
+                                <field name="company_id" attrs="{'readonly': [('state', '!=', '00')]}"/>
+                            </group>
+                            <field name="employee_ids" attrs="{'readonly': [('state', '!=', '00')]}"
+                                   widget="many2many_tags" placeholder="请选择会议参与人员"/>
+                            <field name="meeting_info" attrs="{'readonly': [('state', '!=', '00')]}"
+                                   widget="html" placeholder="会议内容详情"/>
+                        </group>
+                        <group>
+                            <group>
+                                <field name="create_uid"/>
+                            </group>
+                            <group>
+                                <field name="create_date"/>
+                            </group>
+                        </group>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="meeting_manage.oa_meeting_meeting_application_action">
+            <field name="name">会议申请</field>
+            <field name="res_model">oa.meeting.meeting.application</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+
+        <menuitem name="会议管理" id="meeting_manage.oa_meeting_main_menu"
+                  parent="work_together.menu_oa_root"
+                  sequence="3"/>
+
+        <menuitem name="会议" id="meeting_manage.oa_meeting_meeting_application_menu"
+                  parent="meeting_manage.oa_meeting_main_menu"
+                  sequence="1"
+                  action="meeting_manage.oa_meeting_meeting_application_action"/>
+
+
+    </data>
+</odoo>

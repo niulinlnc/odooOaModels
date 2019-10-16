@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2019 SuXueFeng
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<odoo>
+    <data noupdate="0">
+
+        <record model="mail.channel" id="mail_meeting_message">
+            <field name="name">会议及纪要通知</field>
+            <!--<field name="group_ids" eval="[(4, ref('warehouse.group_warehouse'))]"/>-->
+            <field name="description">会议及纪要通知</field>
+        </record>
+
+
+
+        <!--定时任务-->
+        <record id="oa_meeting_time_work_cron" model="ir.cron">
+			<field name="name">更改会议状态</field>
+			<field eval="True" name="active" />
+			<field name="user_id" ref="base.user_root" />
+			<field name="interval_number">1</field>
+			<field name="interval_type">minutes</field>
+			<field name="numbercall">-1</field>
+			<field eval="False" name="doall" />
+			<field eval="'[]'" name="args" />
+			<field eval="'oa.meeting.meeting.application'" name="model" />
+			<field eval="'set_meeting_state'" name="function" />
+			<field name="priority">1</field>
+		</record>
+        <!--<record id="oa_financial.ir_cron_search_payment" model="ir.cron">-->
+            <!--<field name="name">会议结束时间</field>-->
+            <!--<field eval="True" name="active" />-->
+            <!--<field name="user_id" ref="base.user_root" />-->
+            <!--<field name="interval_number">20</field>   &lt;!&ndash; 设置分钟数 &ndash;&gt;-->
+            <!--<field name="interval_type">minutes</field>-->
+            <!--<field name="numbercall">-1</field>-->
+            <!--<field name="nextcall" eval="(DateTime.now() + timedelta(days=2)).strftime('%Y-%m-%d %H:%M:%S')" />-->
+            <!--<field eval="False" name="doall" />-->
+            <!--<field eval="'oa.financial.dockingext'" name="model" />-->
+            <!--<field eval="'search_payment_state'" name="function" />-->
+            <!--<field eval="'()'" name="args" />-->
+            <!--&lt;!&ndash;<field eval="'(50,)'" name="args" />&ndash;&gt;-->
+            <!--<field name="priority">7</field>-->
+        <!--</record>-->
+    </data>
+</odoo>
