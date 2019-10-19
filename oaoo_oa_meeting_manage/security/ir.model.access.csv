@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_oa_meeting_room_manage,oa.meeting.room.manage,model_oa_meeting_room_manage,base.group_user,1,1,1,1
+access_oa_meeting_room_configure,oa.meeting.room.configure,model_oa_meeting_room_configure,base.group_user,1,1,1,1
+access_oa_meeting_type,oa.meeting.type,model_oa_meeting_type,base.group_user,1,1,1,1
+access_oa_meeting_meeting_application,oa.meeting.meeting.application,model_oa_meeting_meeting_application,base.group_user,1,1,1,1
+
