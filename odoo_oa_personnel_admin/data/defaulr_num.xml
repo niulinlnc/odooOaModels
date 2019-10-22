@@ -63,6 +63,13 @@ limitations under the License.
             <field name="suffix"/>
             <field name="padding">5</field>
         </record>
+        <record id="oa_transfer_application_group_number" model="ir.sequence">
+            <field name="name">调岗申请编号规则</field>
+            <field name="code">oa.transfer.application.code</field>
+            <field name="prefix">DG%(year)s%(month)s</field>
+            <field name="suffix"/>
+            <field name="padding">5</field>
+        </record>
 
     </data>
 </odoo>

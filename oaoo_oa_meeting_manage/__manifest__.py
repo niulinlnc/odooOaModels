@@ -16,11 +16,10 @@
     'summary': """流程申请-会议管理""",
     'description': """ 流程申请-会议管理模块""",
     'author': "SuXueFeng",
-    'installable': True,
     'category': 'oa',
     'version': '1.0',
-    'installable': False,
     'depends': ['odoo_oa_base'],
+    'installable': False,
     'auto_install': False,
     'data': [
         'security/ir.model.access.csv',
