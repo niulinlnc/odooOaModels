@@ -13,7 +13,7 @@
     'depends': ['odoo_oa_base'],
     'installable': True,
     'application': False,
-    'auto_install': True,
+    'auto_install': False,
     'data': [
         'security/ir.model.access.csv',
         'data/default_num.xml',
