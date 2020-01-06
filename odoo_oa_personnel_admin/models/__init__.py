@@ -18,3 +18,4 @@ from . import vehicle_application
 from . import itemuse_application
 from . import seal_application
 from . import general_application
+from . import transfer_appliction

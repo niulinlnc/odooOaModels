@@ -10,4 +10,5 @@ access_oa_seal_type,oa.seal.type,model_oa_seal_type,odoo_oa_base.user_groups,1,1
 access_oa_seal_application_line,oa.seal.application.line,model_oa_seal_application_line,odoo_oa_base.user_groups,1,1,1,1
 access_oa_seal_application,oa.seal.application,model_oa_seal_application,odoo_oa_base.user_groups,1,1,1,1
 access_oa_general_application,oa.general.application,model_oa_general_application,odoo_oa_base.user_groups,1,1,1,1
+access_oa_transfer_appliction,oa.transfer.appliction,model_oa_transfer_appliction,odoo_oa_base.user_groups,1,1,1,1
 

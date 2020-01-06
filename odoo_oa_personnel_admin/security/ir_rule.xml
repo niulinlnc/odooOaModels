@@ -133,6 +133,26 @@
         <field name="groups" eval="[(4, ref('odoo_oa_base.manage_groups'))]"/>
         <field name="domain_force">[]</field>
     </record>
+    <!-- 调岗申请 过滤规则 -->
+   <record id="oa_transfer_appliction_user_group_rule" model="ir.rule">
+        <field name="name">调岗申请:用户记录规则</field>
+        <field name="model_id" ref="model_oa_transfer_appliction"/>
+        <field name="domain_force">[('emp_id.user_id', 'in', [user.id])]</field>
+        <field name="groups" eval="[(4, ref('odoo_oa_base.user_groups'))]"/>
+    </record>
+    <record id="oa_transfer_appliction_supervisor_groups_rule" model="ir.rule">
+        <field name="name">调岗申请:部门经理记录规则</field>
+        <field name="model_id" ref="model_oa_transfer_appliction"/>
+        <field name="groups" eval="[(4, ref('odoo_oa_base.supervisor_groups'))]"/>
+        <field name="domain_force">['|', ('emp_id.user_id','=',user.id), ('emp_id.department_id.manager_id.user_id','=',user.id)]</field>
+    </record>
+    <record id="oa_transfer_appliction_manage_groups_rule" model="ir.rule">
+        <field name="name">调岗申请:管理员记录规则</field>
+        <field name="model_id" ref="model_oa_transfer_appliction"/>
+        <field name="groups" eval="[(4, ref('odoo_oa_base.manage_groups'))]"/>
+        <field name="domain_force">[]</field>
+    </record>
+
 
     <!-- 多公司过滤 -->
     <record id="oa_general_application_company_rule" model="ir.rule">
@@ -183,6 +203,15 @@
     <record id="oa_vehicle_application_company_rule" model="ir.rule">
         <field name="name">用车申请多公司过滤</field>
         <field name="model_id" ref="model_oa_vehicle_application"/>
+        <field name="domain_force">['|',('company_id','child_of',[user.company_id.id]),('company_id','=',False)]</field>
+        <field name="perm_read" eval="True"/>
+        <field name="perm_write" eval="True"/>
+        <field name="perm_create" eval="True"/>
+        <field name="perm_unlink" eval="True"/>
+    </record>
+    <record id="oa_transfer_appliction_company_rule" model="ir.rule">
+        <field name="name">调岗申请多公司过滤</field>
+        <field name="model_id" ref="model_oa_transfer_appliction"/>
         <field name="domain_force">['|',('company_id','child_of',[user.company_id.id]),('company_id','=',False)]</field>
         <field name="perm_read" eval="True"/>
         <field name="perm_write" eval="True"/>
