@@ -1,0 +1,718 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* odoo_oa_leave_attendance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e-20191022\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-07 17:37+0000\n"
+"PO-Revision-Date: 2019-11-07 17:37+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__message_needaction
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__message_needaction
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__message_needaction
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__message_needaction
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__active
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__active
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__active
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__active
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__active
+msgid "Active"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__activity_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__activity_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__activity_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__activity_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__activity_state
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__activity_state
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__activity_state
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__activity_state
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__message_attachment_count
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__message_attachment_count
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__message_attachment_count
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__message_attachment_count
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__create_uid
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_type__create_uid
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__create_uid
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__create_uid
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__create_uid
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__create_uid
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__create_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_type__create_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__create_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__create_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__create_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__create_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__display_name
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_type__display_name
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__display_name
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__display_name
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__display_name
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__display_name
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__message_follower_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__message_follower_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__message_follower_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__message_follower_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__message_channel_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__message_channel_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__message_channel_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__message_channel_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__message_channel_ids
+msgid "Followers (Channels)"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__message_partner_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__message_partner_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__message_partner_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__message_partner_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_type__id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__id
+msgid "ID"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_leave_application__message_unread
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_outing_application__message_unread
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_overtime_application__message_unread
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_reissue_application__message_unread
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_travel_application__message_unread
+msgid "If checked new messages require your attention."
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_leave_application__message_needaction
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_outing_application__message_needaction
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_overtime_application__message_needaction
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_reissue_application__message_needaction
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_travel_application__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_leave_application__message_has_error
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_outing_application__message_has_error
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_overtime_application__message_has_error
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_reissue_application__message_has_error
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_travel_application__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__message_is_follower
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__message_is_follower
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__message_is_follower
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__message_is_follower
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application____last_update
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_type____last_update
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application____last_update
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application____last_update
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application____last_update
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application____last_update
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__write_uid
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_type__write_uid
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__write_uid
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__write_uid
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__write_uid
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__write_uid
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__write_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_type__write_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__write_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__write_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__write_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__write_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__message_main_attachment_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__message_main_attachment_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__message_main_attachment_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__message_main_attachment_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__message_has_error
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__message_has_error
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__message_has_error
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__message_has_error
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__message_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__message_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__message_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__message_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__activity_date_deadline
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__activity_date_deadline
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__activity_date_deadline
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__activity_date_deadline
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__activity_summary
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__activity_summary
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__activity_summary
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__activity_summary
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__activity_type_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__activity_type_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__activity_type_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__activity_type_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__message_needaction_counter
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__message_needaction_counter
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__message_needaction_counter
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__message_needaction_counter
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__message_has_error_counter
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__message_has_error_counter
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__message_has_error_counter
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__message_has_error_counter
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__message_has_error_counter
+msgid "Number of error"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_leave_application__message_needaction_counter
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_outing_application__message_needaction_counter
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_overtime_application__message_needaction_counter
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_reissue_application__message_needaction_counter
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_travel_application__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_leave_application__message_has_error_counter
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_outing_application__message_has_error_counter
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_overtime_application__message_has_error_counter
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_reissue_application__message_has_error_counter
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_travel_application__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_leave_application__message_unread_counter
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_outing_application__message_unread_counter
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_overtime_application__message_unread_counter
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_reissue_application__message_unread_counter
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_travel_application__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: selection:oa.leave.application,activity_state:0
+#: selection:oa.outing.application,activity_state:0
+#: selection:oa.overtime.application,activity_state:0
+#: selection:oa.reissue.application,activity_state:0
+#: selection:oa.travel.application,activity_state:0
+msgid "Overdue"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: selection:oa.leave.application,activity_state:0
+#: selection:oa.outing.application,activity_state:0
+#: selection:oa.overtime.application,activity_state:0
+#: selection:oa.reissue.application,activity_state:0
+#: selection:oa.travel.application,activity_state:0
+msgid "Planned"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__activity_user_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__activity_user_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__activity_user_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__activity_user_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_leave_application__activity_state
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_outing_application__activity_state
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_overtime_application__activity_state
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_reissue_application__activity_state
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_travel_application__activity_state
+msgid "Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: selection:oa.leave.application,activity_state:0
+#: selection:oa.outing.application,activity_state:0
+#: selection:oa.overtime.application,activity_state:0
+#: selection:oa.reissue.application,activity_state:0
+#: selection:oa.travel.application,activity_state:0
+msgid "Today"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__message_unread
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__message_unread
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__message_unread
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__message_unread
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__message_unread_counter
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__message_unread_counter
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__message_unread_counter
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__message_unread_counter
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__website_message_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__website_message_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__website_message_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__website_message_ids
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_leave_application__website_message_ids
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_outing_application__website_message_ids
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_overtime_application__website_message_ids
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_reissue_application__website_message_ids
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_travel_application__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: odoo_oa_leave_attendance
+#: selection:oa.reissue.application,reissue_type:0
+msgid "上班卡"
+msgstr "Work Card"
+
+#. module: odoo_oa_leave_attendance
+#: selection:oa.reissue.application,reissue_type:0
+msgid "下班卡"
+msgstr "Off Work Card"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__ta_tool
+msgid "交通工具"
+msgstr "Traffic tool"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__company_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__company_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__company_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__company_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__company_id
+msgid "公司"
+msgstr "Company"
+
+#. module: odoo_oa_leave_attendance
+#: selection:oa.travel.application.line,ta_tool:0
+msgid "其他"
+msgstr "Others"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.ui.menu,name:odoo_oa_leave_attendance.oa_attendance_leave_config_menu
+#: model:ir.ui.menu,name:odoo_oa_leave_attendance.oa_leave_application_main_menu
+msgid "出勤休假"
+msgstr "Attendance leave"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__departure_city
+msgid "出发城市"
+msgstr "departure city"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__ta_text
+msgid "出差事由"
+msgstr "Reason for travel"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.actions.act_window,name:odoo_oa_leave_attendance.oa_travel_application_action
+#: model:ir.model,name:odoo_oa_leave_attendance.model_oa_travel_application
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__oa_ta_id
+#: model:ir.ui.menu,name:odoo_oa_leave_attendance.oa_travel_application_menu
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_travel_application_form_view
+msgid "出差申请"
+msgstr "Business travel application"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model,name:odoo_oa_leave_attendance.model_oa_travel_application_line
+msgid "出差申请列表"
+msgstr "Travel application list"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__reason_leave
+msgid "加班原因"
+msgstr "Overtime reason"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.actions.act_window,name:odoo_oa_leave_attendance.oa_overtime_application_action
+#: model:ir.model,name:odoo_oa_leave_attendance.model_oa_overtime_application
+#: model:ir.ui.menu,name:odoo_oa_leave_attendance.oa_overtime_application_menu
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_overtime_application_form_view
+msgid "加班申请"
+msgstr "Overtime application"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__form_number
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__form_number
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__form_number
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__form_number
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__form_number
+msgid "单据编号"
+msgstr "Receipt No"
+
+#. module: odoo_oa_leave_attendance
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_leave_application_form_view
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_outing_application_form_view
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_overtime_application_form_view
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_reissue_application_form_view
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_travel_application_form_view
+msgid "单据编号，自动生成"
+msgstr "Document number, automatically generated"
+
+#. module: odoo_oa_leave_attendance
+#: selection:oa.travel.application.line,ta_type:0
+msgid "单程"
+msgstr "One Way"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__ta_type
+msgid "单程往返"
+msgstr "One way round trip"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__remarks
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__remarks
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__remarks
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__remarks
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__remarks
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__remarks
+msgid "备注"
+msgstr "Remarks"
+
+#. module: odoo_oa_leave_attendance
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_leave_application_form_view
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_outing_application_form_view
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_overtime_application_form_view
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_reissue_application_form_view
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_travel_application_form_view
+msgid "备注信息..."
+msgstr "Remarks..."
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__reason_leave
+msgid "外出事由"
+msgstr "Reason for going out"
+
+#. module: odoo_oa_leave_attendance
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_outing_application_form_view
+msgid "外出事由。。。"
+msgstr "Reason for going out。。。"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.actions.act_window,name:odoo_oa_leave_attendance.oa_outing_application_action
+#: model:ir.model,name:odoo_oa_leave_attendance.model_oa_outing_application
+#: model:ir.ui.menu,name:odoo_oa_leave_attendance.oa_outing_application_menu
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_outing_application_form_view
+msgid "外出申请"
+msgstr "Go out Application"
+
+#. module: odoo_oa_leave_attendance
+#: sql_constraint:oa.leave.type:0
+msgid "已存在相同类型的名称!"
+msgstr "The same type of name already exists!"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__sequence
+msgid "序号"
+msgstr "No"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__start_date
+msgid "开始日期"
+msgstr "Start date"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__start_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__start_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__start_date
+msgid "开始时间"
+msgstr "Starting time"
+
+#. module: odoo_oa_leave_attendance
+#: selection:oa.travel.application.line,ta_type:0
+msgid "往返"
+msgstr "Round trip"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__sum_days
+msgid "总天数"
+msgstr "Total number of days"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__duration
+msgid "时长(小时)"
+msgstr "Duration (hours)"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__ta_days
+msgid "时长（天）"
+msgstr "Duration (days)"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__line_ids
+msgid "明细"
+msgstr "Detail"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__name
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__name
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__name
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__name
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__name
+msgid "标题"
+msgstr "Title"
+
+#. module: odoo_oa_leave_attendance
+#: selection:oa.travel.application.line,ta_tool:0
+msgid "汽车"
+msgstr "Car"
+
+#. module: odoo_oa_leave_attendance
+#: selection:oa.travel.application.line,ta_tool:0
+msgid "火车"
+msgstr "Train"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__emp_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__emp_id
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__emp_id
+msgid "申请人"
+msgstr "Applicant"
+
+#. module: odoo_oa_leave_attendance
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_travel_application_form_view
+msgid "申请列表"
+msgstr "Application list"
+
+#. module: odoo_oa_leave_attendance
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_leave_application_form_view
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_outing_application_form_view
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_overtime_application_form_view
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_reissue_application_form_view
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_travel_application_form_view
+msgid "申请标题..."
+msgstr "Application title..."
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__destination_city
+msgid "目的城市"
+msgstr "Destination city"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_type__name
+msgid "类型名称"
+msgstr "Type name"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application_line__end_date
+msgid "结束日期"
+msgstr "End date"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__end_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__end_date
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__end_date
+msgid "结束时间"
+msgstr "End Time"
+
+#. module: odoo_oa_leave_attendance
+#: selection:oa.travel.application.line,ta_tool:0
+msgid "船舶"
+msgstr "Ship"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__reissue_text
+msgid "补签事由"
+msgstr "Supplementary sign"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__emp_id
+msgid "补签人"
+msgstr "Reissue"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__reissue_date
+msgid "补签日期"
+msgstr "Reissue date"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.actions.act_window,name:odoo_oa_leave_attendance.oa_reissue_application_action
+#: model:ir.model,name:odoo_oa_leave_attendance.model_oa_reissue_application
+#: model:ir.ui.menu,name:odoo_oa_leave_attendance.oa_reissue_application_menu
+msgid "补签申请"
+msgstr "Reissue application"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__reissue_type
+msgid "补签类型"
+msgstr "Patch type"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__reason_leave
+msgid "请假事由"
+msgstr "Leave"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__emp_id
+msgid "请假人"
+msgstr "Leaveer"
+
+#. module: odoo_oa_leave_attendance
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_leave_application_form_view
+msgid "请假内容详情"
+msgstr "Leave content details"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.actions.act_window,name:odoo_oa_leave_attendance.oa_leave_application_action
+#: model:ir.model,name:odoo_oa_leave_attendance.model_oa_leave_application
+#: model:ir.ui.menu,name:odoo_oa_leave_attendance.oa_leave_application_menu
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_leave_application_form_view
+msgid "请假单"
+msgstr "Leave"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.actions.act_window,name:odoo_oa_leave_attendance.oa_leave_type_action
+#: model:ir.model,name:odoo_oa_leave_attendance.model_oa_leave_type
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__leave_type
+#: model:ir.ui.menu,name:odoo_oa_leave_attendance.oa_leave_type_menu
+msgid "请假类型"
+msgstr "Leave type"
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,help:odoo_oa_leave_attendance.field_oa_travel_application_line__ta_text
+msgid "请填写出差事由"
+msgstr "Please fill in the errand"
+
+#. module: odoo_oa_leave_attendance
+#: model_terms:ir.ui.view,arch_db:odoo_oa_leave_attendance.oa_overtime_application_form_view
+msgid "请描述加班原因..."
+msgstr "Please describe the reason for overtime..."
+
+#. module: odoo_oa_leave_attendance
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_leave_application__attachment_number
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_outing_application__attachment_number
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_overtime_application__attachment_number
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_reissue_application__attachment_number
+#: model:ir.model.fields,field_description:odoo_oa_leave_attendance.field_oa_travel_application__attachment_number
+msgid "附件"
+msgstr "annex"
+
+#. module: odoo_oa_leave_attendance
+#: selection:oa.travel.application.line,ta_tool:0
+msgid "飞机"
+msgstr "Aircraft"
+
